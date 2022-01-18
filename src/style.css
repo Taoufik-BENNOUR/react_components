@@ -1,0 +1,65 @@
+.title{
+    color: red;
+    text-align: center;
+  }
+  .img{
+    width: 250px;
+  }
+  
+  header {
+    z-index:1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color:rgba(255, 0, 0, 0.2);
+  }
+  .brand {
+    padding: 5px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  .navigation-list {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+  }
+  li {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  li:hover {
+    background: rgba(255, 0, 0, 0.2);
+  }
+  nav a:link,
+  nav a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  nav li ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    width: inherit;
+  }
+  .profile {
+    padding: 70px 100px;
+    display: flex;
+    align-items: center;
+  }
+  .profile-text {
+    display: flex;
+    height: 150px;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: space-between;    
+  }
+  .profilepic{
+      width: 200px;
+  }
+  .address{
+      margin:0 15% ;
+  }
